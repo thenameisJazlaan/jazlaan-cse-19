@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>BAZZUCA Sports Shop</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background-color: #f2f5f9;
+      margin: 0;
+      line-height: 1.6;
+    }
+
+    /* Header */
+    header {
+      background: linear-gradient(90deg, #000, #333);
+      color: white;
+      padding: 15px 0;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    header h1 {
+      margin: 0;
+      letter-spacing: 2px;
+    }
+
+    header a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    header a:hover {
+      color: orange;
+    }
+
+    /* Hero Section */
+    .hero {
+      text-align: center;
+      background: linear-gradient(to right, #ff9800, #ff5722);
+      color: white;
+      padding: 70px 20px;
+    }
+
+    .hero h2 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    .hero a {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 25px;
+      background-color: white;
+      color: #ff5722;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 25px;
+      transition: 0.3s;
+    }
+
+    .hero a:hover {
+      background-color: #222;
+      color: white;
+    }
+
+    /* Sections */
+    section {
+      padding: 40px 20px;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    /* Products Table */
+    table {
+      margin: auto;
+      border-collapse: collapse;
+      width: 85%;
+      background-color: white;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+
+    th, td {
+      padding: 15px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #ff9800;
+      color: white;
+      text-transform: uppercase;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+
+    tr:hover {
+      background-color: #ffe0b2;
+    }
+
+    table a {
+      text-decoration: none;
+      color: white;
+      background-color: #ff5722;
+      padding: 8px 15px;
+      border-radius: 20px;
+      transition: 0.3s;
+    }
+
+    table a:hover {
+      background-color: #000;
+    }
+
+    /* About & Contact */
+    #about, #contact {
+      max-width: 900px;
+      margin: auto;
+      text-align: center;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    }
+
+    #about p, #contact p {
+      color: #555;
+      font-size: 16px;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #000;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>BAZZUCA Sports Shop</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#products">Products</a>
+      <a href="#about">About Us</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <h2>Welcome to BAZZUCA</h2>
+    <p>Your one-stop store for premium sports equipment</p>
+    <a href="#products">Shop Now</a>
+  </section>
+
+  <section id="products">
+    <h2>Our Products</h2>
+    <table>
+      <tr>
+        <th>Product</th>
+        <th>Price</th>
+        <th>Buy</th>
+      </tr>
+      <tr>
+        <td>Football</td>
+        <td>₹1495</td>
+        <td><a href="https://www.myntra.com/footballs/nike/nike-phantom-football/38366119/buy">Order</a></td>
+      </tr>
+      <tr>
+        <td>Cricket Bat</td>
+        <td>₹3602</td>
+        <td><a href="https://www.sstoncricket.com/ss-premium-bronze-kashmir-willow-cricket-bat-sh-html">Order</a></td>
+      </tr>
+      <tr>
+        <td>Tennis Racket</td>
+        <td>₹2500–₹3300</td>
+        <td><a href="https://www.amazon.in/HEAD-1100167-Ti-1000-Tennis-Racquet/dp/B00FI0RJ2Y">Order</a></td>
+      </tr>
+      <tr>
+        <td>Badminton Shuttle</td>
+        <td>₹499</td>
+        <td><a href="https://www.amazon.in/Yonex-Mavis-200i-Shuttle-Yellow/dp/B01IEVIVAC">Order</a></td>
+      </tr>
+    </table>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>
+      BAZZUCA is a clean and modern sports shop website built for practice and learning.
+      We provide affordable, high-quality sports equipment for students and athletes.
+    </p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: bazzuca@sports.com</p>
+    <p>Phone: +91-9876543210</p>
+    <p>Location: Lucknow, India</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 BAZZUCA Sports Shop. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
